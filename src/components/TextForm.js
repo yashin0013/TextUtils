@@ -26,7 +26,7 @@ export default function TextForm(props) {
   const [text, setText] = useState("");
   return (
     <div>
-    <div className={`container text-${props.mode==='light'?'dark':'light'}`}>
+    <div className={`container my-3 text-${props.mode==='light'?'dark':'light'}`}>
     <h1>{props.heading}</h1>
       <div className="form-group">
         <textarea
