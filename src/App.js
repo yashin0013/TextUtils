@@ -22,6 +22,13 @@ setTimeout(()=>{
       SetMode("dark");
       document.body.style.backgroundColor="#001d68";
       showAlert("Dark mode has been enabled","Success","success");
+      document.title="Dark Mode Enabled";
+      setInterval(() => {
+        document.title="TextUtils is Amezing";
+      }, 2000);
+      setInterval(() => {
+        document.title="Install TextUtils";
+      }, 1500);
     }else{
       SetMode("light");
       document.body.style.backgroundColor="white";
